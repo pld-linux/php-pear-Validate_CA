@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Kanady
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
+Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,9 +17,9 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Validate_CA/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-Requires:	php-pear
 Requires:	php-common >= 3:4.2.0
 Requires:	php-pcre
+Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +33,7 @@ Package contains locale validation for Canada such as:
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Pakiet do sprawdzania poprawno¶ci danych dla Kanady:
+Pakiet do sprawdzania poprawno¶ci dla Kanady danych takich jak:
 - numer ubezpieczenia spo³ecznego (SIN)
 - kod pocztowy
 - region (prowincja)
@@ -72,4 +73,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files tests
 %defattr(644,root,root,755)
-%{php_pear_dir}/tests/Validate_CA/tests/validate_CA.phpt
+%{php_pear_dir}/tests/Validate_CA

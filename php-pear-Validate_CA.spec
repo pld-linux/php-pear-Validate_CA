@@ -3,12 +3,11 @@
 %define		_subclass	CA
 %define		_status		alpha
 %define		_pearname	Validate_CA
-
 Summary:	%{_pearname} - Validation class for Canada
 Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Kanady
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
-Release:	1
+Release:	2
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
@@ -18,8 +17,8 @@ URL:		http://pear.php.net/package/Validate_CA/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	php(pcre)
 Requires:	php-common >= 3:4.2.0
-Requires:	php-pcre
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

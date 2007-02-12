@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	Validate_CA
 Summary:	%{_pearname} - Validation class for Canada
-Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Kanady
+Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzajÄ…ca poprawnoÅ›Ä‡ dla Kanady
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	2
@@ -32,9 +32,9 @@ Package contains locale validation for Canada such as:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet do sprawdzania poprawno¶ci dla Kanady danych takich jak:
-- numer ubezpieczenia spo³ecznego (SIN)
+%description -l pl.UTF-8
+Pakiet do sprawdzania poprawnoÅ›ci dla Kanady danych takich jak:
+- numer ubezpieczenia spoÅ‚ecznego (SIN)
 - kod pocztowy
 - region (prowincja)
 - numer telefonu
@@ -43,7 +43,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -51,7 +51,7 @@ AutoReq:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep

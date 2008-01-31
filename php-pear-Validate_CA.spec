@@ -7,7 +7,7 @@ Summary:	%{_pearname} - Validation class for Canada
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Kanady
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
-Release:	2
+Release:	3
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP

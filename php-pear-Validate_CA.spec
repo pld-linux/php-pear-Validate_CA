@@ -6,13 +6,13 @@
 Summary:	%{_pearname} - Validation class for Canada
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Kanady
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
+Version:	0.2.0
 Release:	1
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	6ebb6cdc0ff3a45b0c20ee03d032cbd4
+# Source0-md5:	1952cb1f6417561a0c2bd603e292bc0c
 URL:		http://pear.php.net/package/Validate_CA/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
